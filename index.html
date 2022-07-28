@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container max-w-6xl mx-auto">
+        <header>
+
+            <!-- Header Navbar -->
+
+            <div class="navbar">
+                <div class="navbar-start">
+
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-900 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li tabindex="0">
+                                <a class="justify-between">
+                                    Courses
+
+                                </a>
+
+                            </li>
+                            <li><a>Deals</a></li>
+                            <li class=" text-sm"><a>Deals</a></li>
+                            <li class=" text-sm"><a href="">Success</a></li>
+                            <li class=" text-sm"><a href="">About</a></li>
+                            <li class=" text-sm"><a href="">Register</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn bg-white border-0 hover:bg-slate-200 text-gray-700 font-bold normal-case text-2xl">Edu
+                        Hub</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal p-0">
+                        <li class="text-gray-600 text-sm"><a>Home</a></li>
+                        <li class="text-gray-600 text-sm" tabindex="0">
+                            <a>
+                                Courses
+                            </a>
+
+                        </li>
+                        <li class="text-gray-600 text-sm"><a>Deals</a></li>
+                        <li class="text-gray-600 text-sm"><a href="">Success</a></li>
+                        <li class="text-gray-600 text-sm"><a href="">About</a></li>
+                        <li class="text-gray-600 text-sm"><a href="">Register</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-outline btn-info px-10">Register</button>
+                </div>
+            </div>
+            <!-- header navbar ends -->
+
+            <!-- Carousel starts -->
+            <div class="relative w-full border-0 h-128">
+                <div class="carousel lg:w-full h-full md:w-75 sm:w-50 ">
+                    <div id="slide1"
+                        class="h-full  rounded-md carousel-item relative w-full bg-[url('images/cover/cover-1.png')] bg-no-repeat md:bg-cover bg-cover">
+                        <!-- style="height: 700px;" -->
+
+                        <div class=" bg-black opacity-80 w-full" style="height:700px;">
+                            <div
+                                class="text-center w-full h-full opacity-100  flex flex-col justify-center items-center ">
+                                <h1 class="lg:text-6xl md:text-6xl text-4xl mb-5 text-white">Get Started Digital <br>
+                                    <span>Learning</span>
+                                </h1>
+                                <p class="text-sm mb-5">It is a long established fact that a reader will be distracted
+                                    by
+                                    the
+                                    readable content of a page when looking at its layout.</p>
+                                <button class="btn bg-sky-500 text-white hover:bg-sky-700 opacity-100">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                        <div class=" absolute flex justify-between transform -translate-y-1/2 z-10 left-5 right-5
+                        top-1/2">
+                            <a href="#slide4" class="btn btn-circle bg-[transparent] border-0  ">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-[transparent] border-0 ">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2"
+                        class="rounded-md carousel-item relative w-full bg-[url('images/cover/cover-2.jpg')] bg-no-repeat ">
+                        <div class=" bg-black opacity-80 w-full">
+                            <div
+                                class="text-center w-full h-full opacity-100  flex flex-col justify-center items-center ">
+                                <h1 class="text-6xl mb-5 text-white">Get to Know <br> <span>Everything</span>
+                                </h1>
+                                <p class="text-sm mb-5">It is a long established fact that a reader will be distracted
+                                    by
+                                    the
+                                    readable content of a page when looking at its layout.</p>
+                                <button class="btn bg-sky-500 text-white hover:bg-sky-700 opacity-100">View
+                                    More</button>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 z-10 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle bg-[transparent] border-0  ">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-[transparent] border-0 ">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3"
+                        class="rounded-md carousel-item relative w-full bg-[url('images/cover/cover-3.jpg')] bg-no-repeat">
+                        <div class=" bg-black opacity-80 w-full" style="height:700px;">
+                            <div
+                                class="text-center w-full h-full opacity-100  flex flex-col justify-center items-center ">
+                                <h1 class="text-6xl mb-5 text-white">Learn Huge Online <br> <span>Resources</span>
+                                </h1>
+                                <p class="text-sm mb-5">It is a long established fact that a reader will be distracted
+                                    by
+                                    the
+                                    readable content of a page when looking at its layout.</p>
+                                <button class="btn bg-sky-500 text-white hover:bg-sky-700 opacity-100">Buy
+                                    Course</button>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 z-10 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle bg-[transparent] border-0   ">❮</a>
+                            <a href="#slide4" class="btn btn-circle bg-[transparent] border-0 ">❯</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--   <div class="w-full h-full bg-gray-600 opacity-75 top-0 absolute  flex justify-center items-center z-20">
+                    <div class="text-center z-20">
+                        <h1 class="text-6xl pb-3 ">Get Started Digital <br><span>Learning</span></h1>
+                        <p class="text-sm pb-3">It is a long established fact that a reader will be distracted by the
+                            readable
+                            content of a page when looking at its layout.</p>
+                        <button class="btn bg-sky-500 border-0 px-10">Get Started</button>
+                    </div>
+
+                </div> -->
+
+            </div>
+            <div class="bg-[url(' images/cover/cover-3.jpg')] h-80 w-full"></div>
+
+        </header>
+    </div>
+
+
+</body>
+
+</html>
