@@ -10,11 +10,16 @@
         :root {
             background-color: #fff;
         }
+
+        html,
+        body {
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container max-w-6xl mx-auto">
+    <div class="container max-w-6xl mx-auto my-12">
         <header>
 
             <!-- Header Navbar -->
@@ -62,11 +67,10 @@
                         <li class="text-gray-600 text-sm"><a>Deals</a></li>
                         <li class="text-gray-600 text-sm"><a href="">Success</a></li>
                         <li class="text-gray-600 text-sm"><a href="">About</a></li>
-                        <li class="text-gray-600 text-sm"><a href="">Register</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <button class="btn btn-outline btn-info px-10">Register</button>
+                    <a href="#register" class="btn btn-outline btn-info px-10">Register</a>
                 </div>
             </div>
             <!-- header navbar ends -->
@@ -143,83 +147,181 @@
 
                 </div>
             </div>
+            <!-- careousl end -->
         </header>
-        <div class="courses my-20 text-center">
-            <div class="section-title">
-                <h1 class="text-4xl text-black font-bold">Discover Our Popular <br><span>Courses</span> </h1>
-                <p class="text-sm mt-3">It is a long established fact that a reader will be distracted by the readable
-                    <br>
-                    content of
-                    a page when looking at its layout.
-                </p>
+        <!-- Professional courses -->
+        <main>
+            <div class="courses my-20 text-center">
+                <div class="section-title">
+                    <h1 class="text-4xl text-black font-bold">Discover Our Popular <br><span>Courses</span> </h1>
+                    <p class="text-sm mt-3">It is a long established fact that a reader will be distracted by the
+                        readable
+                        <br>
+                        content of
+                        a page when looking at its layout.
+                    </p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10 ">
+                        <div class="flex  md:flex-row flex-col border rounded-md">
+                            <img src="images/course/course-1.png" class="p-3 md:p-0" alt="">
+                            <div class="card-body text-left">
+                                <h2 class="text-xl text-gray-900 font-bold">Javascript Basic to advanced</h2>
+                                <p class="text-md">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card.</p>
+                                <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                            </div>
+                        </div>
+
+                        <div class=" flex md:flex-row flex-col border rounded-md">
+                            <img src="images/course/course-2.png" class="p-3 md:p-0" alt="">
+                            <div class="card-body text-left">
+                                <h2 class="text-xl text-gray-900 font-bold">Fullstack Web Development</h2>
+                                <p class="text-md">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card.</p>
+                                <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                            </div>
+                        </div>
+                        <div class="flex col md:flex-row flex-col border rounded-md">
+                            <img src="images/course/course-3.png" class="p-3 md:p-0" alt="">
+                            <div class="card-body text-left">
+                                <h2 class="text-xl text-gray-900 font-bold">Digital Marketing</h2>
+                                <p class="text-md">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card.</p>
+                                <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                            </div>
+                        </div>
+
+                        <div class=" flex border rounded-md md:flex-row flex-col">
+                            <img src="images/course/course-4.png" class="p-3 md:p-0" alt="">
+                            <div class="card-body text-left">
+                                <h2 class="text-xl text-gray-900 font-bold">Photography Basic Rules</h2>
+                                <p class="text-md">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card.</p>
+                                <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                            </div>
+                        </div>
+                        <div class="flex col md:flex-row flex-col border rounded-md">
+                            <img src="images/course/course-5.png" class="p-3 md:p-0" alt="">
+                            <div class="card-body text-left">
+                                <h2 class="text-xl text-gray-900 font-bold">Motion Graphics</h2>
+                                <p class="text-md">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card.</p>
+                                <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                            </div>
+                        </div>
+
+                        <div class=" flex border md:flex-row flex-col rounded-md">
+                            <img src="images/course/course-6.png" class="p-3 md:p-0" alt="">
+                            <div class="card-body text-left">
+                                <h2 class="text-xl text-gray-900 font-bold">Fundamental Of UI/UX Design</h2>
+                                <p class="text-md">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card.</p>
+                                <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center py-10">
+                    <button class="btn bg-sky-500 text-white border-0 px-10 hover:bg-sky-600 ">See More Courses</button>
+                </div>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10 ">
-                <div class="flex  md:flex-row flex-col border rounded-md">
-                    <img src="images/course/course-1.png" class="p-3 md:p-0" alt="">
-                    <div class="card-body text-left">
-                        <h2 class="text-xl text-gray-900 font-bold">Javascript Basic to advanced</h2>
-                        <p class="text-md">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card.</p>
-                        <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
-                    </div>
+            <!-- Regsiter section -->
+            <div class="flex bg-sky-500 justify-around items-center rounded-md">
+                <div class=" w-50 my-10 text-white">
+                    <h2 class="text-4xl my-2">Ready to join?</h2>
+                    <p class="text-sm py-2">It is a long established fact that a reader will be distracted by the <br>
+                        readable content of a
+                        page
+                        when
+                        looking at its layout.</p>
                 </div>
+                <div class="register-modal" id="register">
+                    <!-- The button to open modal -->
+                    <label for="my-modal-3"
+                        class="btn modal-button px-10 bg-white border-0 text-sky-500 outline outline-sky-500 hover:bg-sky-600 hover:text-white">Register</label>
 
-                <div class=" flex md:flex-row flex-col border rounded-md">
-                    <img src="images/course/course-2.png" class="p-3 md:p-0" alt="">
-                    <div class="card-body text-left">
-                        <h2 class="text-xl text-gray-900 font-bold">Fullstack Web Development</h2>
-                        <p class="text-md">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card.</p>
-                        <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
-                    </div>
-                </div>
-                <div class="flex col md:flex-row flex-col border rounded-md">
-                    <img src="images/course/course-3.png" class="p-3 md:p-0" alt="">
-                    <div class="card-body text-left">
-                        <h2 class="text-xl text-gray-900 font-bold">Digital Marketing</h2>
-                        <p class="text-md">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card.</p>
-                        <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
-                    </div>
-                </div>
 
-                <div class=" flex border rounded-md md:flex-row flex-col">
-                    <img src="images/course/course-4.png" class="p-3 md:p-0" alt="">
-                    <div class="card-body text-left">
-                        <h2 class="text-xl text-gray-900 font-bold">Photography Basic Rules</h2>
-                        <p class="text-md">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card.</p>
-                        <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
-                    </div>
-                </div>
-                <div class="flex col md:flex-row flex-col border rounded-md">
-                    <img src="images/course/course-5.png" class="p-3 md:p-0" alt="">
-                    <div class="card-body text-left">
-                        <h2 class="text-xl text-gray-900 font-bold">Motion Graphics</h2>
-                        <p class="text-md">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card.</p>
-                        <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
-                    </div>
-                </div>
+                    <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+                    <div class="modal">
+                        <div class="modal-box relative bg-slate-100 w-2/4 max-w-5xl">
+                            <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                            <h3 class="text-2xl font-bold text-center text-sky-500 ">Register Here</h3>
+                            <hr class="border-x-2 mt-2 border-sky-300">
+                            <form action="#">
+                                <div class="form-control w-full my-2 ">
+                                    <div class="grid grid-cols-1 md:grid-cols-2 w-3/4 mx-auto gap-4 my-5">
+                                        <div class="col">
+                                            <label class="label">
+                                                <span class="label-text">Full name</span>
+                                            </label>
+                                            <input type="text" placeholder="Type here"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div class="col">
+                                            <label class="label">
+                                                <span class="label-text">Username</span>
+                                            </label>
+                                            <input type="text" placeholder="Type here"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div class="col">
+                                            <label class="label">
+                                                <span class="label-text">Email</span>
+                                            </label>
+                                            <input type="email" placeholder="Type here"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div class="col">
+                                            <label class="label">
+                                                <span class="label-text">Passowrd</span>
+                                            </label>
+                                            <input type="password" placeholder="Type here"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div class="col">
+                                            <label class="label">
+                                                <span class="label-text">Confirm Password</span>
+                                            </label>
+                                            <input type="password" placeholder="Type here"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div class="col">
+                                            <label class="label">
+                                                <span class="label-text">Phone</span>
+                                            </label>
+                                            <input type="number" placeholder="Type here"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
 
-                <div class=" flex border md:flex-row flex-col rounded-md">
-                    <img src="images/course/course-6.png" class="p-3 md:p-0" alt="">
-                    <div class="card-body text-left">
-                        <h2 class="text-xl text-gray-900 font-bold">Fundamental Of UI/UX Design</h2>
-                        <p class="text-md">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card.</p>
-                        <h3 class="text-md text-sky-500 font-bold ">Price:20$</h3>
+                                    </div>
+                                    <div class="col-span-2 text-center">
+
+                                        <button class="btn bg-sky-500 text-white px-10 w-25">Register</button>
+                                    </div>
+
+                                </div>
+
+                        </div>
+                        </form>
                     </div>
                 </div>
-
             </div>
-        </div>
+    </div>
+
+    </main>
+    <!-- Professional Courses end -->
     </div>
 
     </div>
